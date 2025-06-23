@@ -1,0 +1,14 @@
+1 VM  EC2   基本中の基本／インスタンスの種類・料金・Auto Scaling
+2 Blob storage S3   	SAA頻出／ストレージクラス（Standard／IA／Glacier）に注意
+3 RBAC + IAM  IAM   ポリシー(JSON)・Role／ユーザー／グループの違いを理解
+4 Vnet  VPC   Subnet／Routing Table／NACL／Security Groupの違い
+5 LB (ELB)  ALB／NLBの違いが出題される／ヘルスチェック理解
+6 Azure DB  RDS    マネージドDBの種類／バックアップ／マルチAZ／Read Replica
+7 Azure Functions Lambda  イベントドリブン設計／VPC内Lambdaなど構成に注意
+8 Monitor + Log Analytics  Cold Watch  メトリクス・アラーム・ロググループの構成理解
+9 Activity Log CLoudTrail トレイル　　監査証跡／CloudWatchとの組み合わせに注意
+10 Azure DNS  ルート53　　DNSレコードタイプ／ヘルスチェック付きのルーティング
+Cosmos DB　ダイナモDB
+管理系　SSM
+KV　KMS　暗号化絡み
+クラウド自動化　ARM、Bicep　クラウドformation
