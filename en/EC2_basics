@@ -1,0 +1,18 @@
+# EC2 Basics
+
+## EC2 Overview
+- Elastic Compute Cloud (EC2) provides resizable virtual machines.
+- Common instance types: t3, m5, c6g (general, compute, memory optimized)
+- Purchase options: On-demand, Reserved, Spot Instances
+
+## Auto Scaling
+- EC2 can be added/removed dynamically via Auto Scaling Group (ASG).
+- Launch Template used to define instance config.
+
+## Storage
+- Default storage: EBS (gp3, io1, sc1)
+- Optionally attach ephemeral instance store
+
+## Monitoring
+- CloudWatch for metrics and alarms
+- CloudTrail for auditing EC2 API calls
