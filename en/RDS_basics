@@ -1,0 +1,25 @@
+# Amazon RDS Basics
+
+## What is RDS?
+- RDS (Relational Database Service) is a managed service for relational databases
+- Supports: MySQL, PostgreSQL, MariaDB, Oracle, SQL Server, Amazon Aurora
+
+## Key Features
+- Automated backups and snapshots
+- Multi-AZ deployment for high availability
+- Read replicas for horizontal read scaling (MySQL, PostgreSQL, Aurora)
+
+## Storage Options
+- General Purpose (gp2 / gp3)
+- Provisioned IOPS (io1)
+- Magnetic (deprecated)
+
+## Security
+- Encryption at rest and in transit (KMS, SSL)
+- IAM authentication
+- VPC-based access control (SG, subnet)
+
+## Common Pitfalls
+- Single-AZ = no HA (use Multi-AZ for production)
+- Read replicas are for **reads only**, not automatic failover
+- Storage type can't be downgraded (e.g., io1 → gp2)
