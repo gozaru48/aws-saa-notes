@@ -1,0 +1,38 @@
+# CloudWatch and CloudTrail - Differences and Use Cases
+
+## Amazon CloudWatch
+- Monitoring service for logs, metrics, and alarms
+- Use cases:
+  - Set alarms for EC2 CPU usage
+  - Visualize Lambda invocation count
+  - Centralize logs using CloudWatch Logs
+
+### Key Features
+- Metrics (default or custom)
+- Logs (via agent or SDK)
+- Alarms (triggered by thresholds)
+- Dashboards
+
+## AWS CloudTrail
+- Auditing and governance tool
+- Records API calls across AWS services
+- Delivered as JSON logs to S3
+
+### Key Features
+- Tracks "who did what, when, and from where"
+- Integrates with EventBridge and CloudWatch
+- Supports multi-region trails
+
+## Comparison Table
+
+| Feature         | CloudWatch               | CloudTrail                    |
+|----------------|---------------------------|-------------------------------|
+| Purpose         | Monitoring and Alerting   | Auditing and Compliance       |
+| Data Type       | Metrics / Logs            | API Activity Logs             |
+| Delivery        | Near real-time            | Delivered to S3 (5 min–15 min delay) |
+| Typical Use     | CPU usage, errors         | IAM user actions, API usage   |
+
+## Common Pitfalls
+- CloudWatch ≠ Logging of user actions
+- CloudTrail logs are not immediate (check delay)
+- S3 bucket for CloudTrail must be properly secured
