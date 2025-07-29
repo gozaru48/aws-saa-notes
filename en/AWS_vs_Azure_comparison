@@ -1,0 +1,10 @@
+| AWS Service | Azure Equivalent  | Notes                                                      |
+|-------------|-------------------|------------------------------------------------------------|
+| EC2         | Azure VM          | EC2 uses Auto Scaling Group, while Azure uses VMSS        |
+| S3          | Azure Blob        | Standard/IA/Glacier ↔ Hot/Cool/Archive                    |
+| IAM         | RBAC + IAM        | AWS focuses on User/Group/Policy; Azure is RBAC-centric   |
+| VPC         | VNet              | Compare subnet design concepts and routing differences     |
+| Lambda      | Azure Functions   | Common event-driven architecture                          |
+
+
+VMSS = Virtual Machine Scale Set
