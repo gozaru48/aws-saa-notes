@@ -1,0 +1,7 @@
+| AWSのサービス | Azureの相当サービス         | 補足説明                                                               |
+| -------- | -------------------- | ------------------------------------------------------------------ |
+| EC2      | Azure VM             | EC2はAuto Scaling Groupを使用、AzureはVMSS（Virtual Machine Scale Set）を使用 |
+| S3       | Azure Blob Storage   | S3のStandard /IA(低頻度アクセス) /Glacierに対し、AzureはHot/Cool/Archiveで管理                |
+| IAM      | RBAC + IAM（Azure AD） | AWSはユーザー/グループ/ポリシー中心、AzureはRBAC（ロール中心）で管理                          |
+| VPC      | VNet                 | サブネット設計やルーティングの考え方に違いがある                                           |
+| Lambda   | Azure Functions      | 両方ともイベント駆動アーキテクチャを採用                                               |
