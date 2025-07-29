@@ -1,0 +1,15 @@
+# VPC Design Basics
+
+## Core Components
+- VPC (Virtual Private Cloud): logically isolated section of AWS network.
+- Subnet: public (with IGW) or private (via NAT or no internet access).
+- Route Table: defines outbound traffic behavior for each subnet.
+
+## High Availability
+- Deploy resources across multiple Availability Zones (AZs)
+- Use NAT Gateway in public subnet for private subnet internet access
+
+## Common Pitfalls
+- Route Table misconfiguration blocks access
+- IGW not attached → public subnet is ineffective
+- Security Group vs NACL: stateful vs stateless filtering
