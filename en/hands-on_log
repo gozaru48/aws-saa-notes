@@ -1,0 +1,35 @@
+# hands-on_log.md
+This file is a learning record for AWS hands-on practice. My main background is in Microsoft Azure, and I’m now expanding into AWS.
+
+---
+
+## Planned Hands-on Tasks (To be done in Aug–Sep 2025)
+
+### 1. EC2 – Launch & Connect
+- Launch EC2 instance (Amazon Linux / Ubuntu)
+- Connect via SSH and install Nginx
+- Practice key-pair setup and security group
+
+### 2. S3 – Bucket Setup & Static Hosting
+- Create a bucket with public access blocked
+- Enable static website hosting
+- Test bucket policies and versioning
+
+### 3. IAM – Roles & Policies
+- Create IAM users and roles
+- Assign custom policies (least privilege)
+- MFA setup for root user
+
+---
+
+## In Progress / Notes
+
+- Studying EC2 + VPC structure (Auto Scaling Group + Load Balancer)
+- Mapping Azure concepts (e.g., VMSS → ASG, VNet → VPC)
+
+---
+
+## Goal
+
+- Complete all hands-on tasks before AWS SAA exam (Oct–Nov 2025)
+- Use this log as part of ACS RPL evidence and for job interview support
