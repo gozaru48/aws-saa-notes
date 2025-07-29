@@ -25,7 +25,7 @@
 
 ---
 
-## 📌 このノートの目的
+## このノートの目的
 
 - AWS初心者（Azure経験者）がざっくり用語に慣れる
 - PTE終了後の本格学習に備える
@@ -33,7 +33,7 @@
 
 ---
 
-## 🔖 参考教材
+## 参考教材
 
 - Udemy講座： AWS Certified Solutions Architect – Associate (SAA-C03)
 - AWS公式ドキュメント
