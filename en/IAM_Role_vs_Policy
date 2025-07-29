@@ -1,0 +1,17 @@
+# IAM Role vs IAM Policy
+
+## IAM Policy
+- Defines *what actions are allowed* on which resources
+- Attached to IAM Users, Groups, or Roles
+
+## IAM Role
+- Assume role concept (sts:AssumeRole)
+- Used by services (e.g., EC2, Lambda) or external identities (SAML, OIDC)
+
+## Differences
+- Policy = permission rules
+- Role = identity with temporary credentials and permissions
+
+## Example Use Cases
+- EC2 assumes IAM Role to access S3 securely
+- Cross-account access via IAM Role trust policy
