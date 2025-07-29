@@ -1,0 +1,7 @@
+## IAM Best Practices
+
+- Follow **least privilege principle**: grant only the permissions required.
+- Use **IAM Roles** instead of long-term credentials (for EC2, Lambda, etc.).
+- Enable **MFA (Multi-Factor Authentication)** for all users, especially root.
+- Use **IAM policies (JSON)** to manage access at user/group/role level.
+- Prefer **IAM Roles + Temporary credentials** for services.
