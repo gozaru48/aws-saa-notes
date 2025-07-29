@@ -1,0 +1,11 @@
+## Amazon S3 - Storage Classes and Lifecycle
+
+| Class                  | Use Case                              | Durability / Availability      |
+|------------------------|----------------------------------------|--------------------------------|
+| S3 Standard            | Frequently accessed data               | 99.999999999% / 99.99%         |
+| S3 Standard-IA         | Infrequently accessed, but needed fast | 99.999999999% / 99.9%          |
+| S3 One Zone-IA         | Infrequently accessed, non-critical    | 99.999999999% / 99.5%          |
+| S3 Glacier             | Archival, retrieval in minutes/hours   | 99.999999999% / Variable       |
+| S3 Glacier Deep Archive| Long-term archive (12+ hours to retrieve) | 99.999999999% / Variable    |
+
+- Use **Lifecycle Policies** to automatically transition or delete objects.
