@@ -1,0 +1,6 @@
+## High Availability and Fault Tolerance
+
+- Use **Multi-AZ** for database (e.g., RDS) to ensure high availability.
+- Use **Auto Scaling Group (ASG)** with EC2 instances across **multiple Availability Zones**.
+- Combine with **Elastic Load Balancer (ELB)** to distribute traffic across zones.
+- Use **Route 53** with health checks and failover routing for DNS-level redundancy.
