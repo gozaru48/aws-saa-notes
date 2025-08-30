@@ -139,21 +139,3 @@ RIではなくODを組み合わせるのがポイント
 | **CDN** | CloudFront              | グローバル高速配信      |
 | **コスト** | Savings Plan            | RIより柔軟な割引モデル   |
 
-
-
-| AWS サービス名 | 超ざっくり説明 | Azureで例えると |
-|----------------|-----------------|------------------|
-| **EC2**        | 仮想サーバー     | VM (Virtual Machine) |
-| **S3**         | ファイル置き場（オブジェクトストレージ） | Blob Storage |
-| **RDS**        | マネージドDBサーバー | Azure Database (MySQL, PostgreSQL) |
-| **VPC**        | 仮想ネットワーク | VNet |
-| **IAM**        | ユーザー・権限管理 | RBAC + IAM |
-| **Lambda**     | サーバーレス関数 | Azure Functions |
-| **CloudWatch** | モニタリング | Monitor + Log Analytics |
-| **CloudTrail** | 操作ログ・監査 | Activity Log |
-| **ELB**        | ロードバランサ | Load Balancer + App Gateway |
-| **Route 53**   | DNSサービス | Azure DNS |
-| **DynamoDB**   | NoSQL データベース | Cosmos DB に近い |
-| **KMS**        | 暗号鍵管理 | Key Vault |
-| **CloudFormation** | IaC（コードでリソース管理） | ARM / Bicep |
-| **Auto Scaling** | EC2 自動増減 | VMSS (仮想マシン スケール セット) |
